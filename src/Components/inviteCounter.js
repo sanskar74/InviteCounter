@@ -28,7 +28,8 @@ function InviteCounter() {
 
   return (
     <div className="counter-container">
-      <h2>Invites: {count}</h2>
+      <h1>LinkedIn Invites</h1>
+      <h2>Sent : {count}</h2>
       <div className="button-container">
         <button className="counter-button increment" onClick={increment}>
           Plus
