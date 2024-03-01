@@ -1,11 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import InviteCounter from "./Components/inviteCounter";
+import InviteTracker from "./Components/Advance/InviteTracker";
+// import InviteCounter from "./Components/inviteCounter";
 
 function App() {
   return (
     <div className="App">
-      <InviteCounter />
+      <InviteTracker />
+      {/* <InviteCounter /> */}
     </div>
   );
 }
